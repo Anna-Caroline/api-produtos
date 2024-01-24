@@ -20,7 +20,7 @@ API desenvolvida para sistema de exibição, criação, edição e deleção de 
 # Como executar o projeto
 - Clonar o repositório ou fazer download
 - Abrir em IDE de preferência o arquivo DesafioTraineeAplication.java dentro da pasta src e rodar
-A API poderá ser acessada em localhost:8080
+<br>A API poderá ser acessada em localhost:8080
 
 # API Endpoints
 Para fazer as requisições abaixo, foi utilizada a ferramenta [httpie](https://httpie.io/)

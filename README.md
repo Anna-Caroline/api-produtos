@@ -4,28 +4,28 @@
 # Sobre o Projeto
 API desenvolvida para sistema de exibição, criação, edição e deleção de produtos vendidos por uma Companhia X e integração com banco de dados MySQL.
 
-#Tecnologias
+# Tecnologias
 - Spring Boot
 - Spring MVC
 - Spring Data JPA
 - MySQL
 
-#Práticas adotadas
+# Práticas adotadas
 - SOLID
 - DRY
 - API REST
 - Consultas com Spring Data JPA
 - Injeção de dependências
 
-#Como executar o projeto
--Clonar o repositório ou fazer download
--Abrir em IDE de preferência o arquivo DesafioTraineeAplication.java dentro da pasta src e rodar
+# Como executar o projeto
+- Clonar o repositório ou fazer download
+- Abrir em IDE de preferência o arquivo DesafioTraineeAplication.java dentro da pasta src e rodar
 A API poderá ser acessada em localhost:8080
 
-#API Endpoints
+# API Endpoints
 Para fazer as requisições abaixo, foi utilizada a ferramenta [httpie](https://httpie.io/)
 
--Criar produto
+- Criar produto
 ```bash
 $ http POST :8080/produtos nome="notebook" descricao="produto eletronico" codigo="3218" preco="2500"
 [
@@ -38,7 +38,7 @@ $ http POST :8080/produtos nome="notebook" descricao="produto eletronico" codigo
     }
 ]
 ```
--Listar produtos
+- Listar produtos
 ```bash
 $ http GET :8080/produtos
 [
@@ -52,7 +52,7 @@ $ http GET :8080/produtos
 ]
 
 ```
--Atualizar produto
+- Atualizar produto
 
 ```bash
 $ http PUT :8080/projetos/1 nome="notebook marca x" preco="3000"
@@ -66,7 +66,7 @@ $ http PUT :8080/projetos/1 nome="notebook marca x" preco="3000"
     }
 ]
 ```
--Remover produto
+- Remover produto
 ```bash
 $ http DELETE :8080/produtos/1
 [ ]
